@@ -1,0 +1,18 @@
+{
+  "name": "javascript-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:order": "node order-service.js",
+    "start:user": "node user-service.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.9",
+    "got": "^11.8.6"
+  }
+}
